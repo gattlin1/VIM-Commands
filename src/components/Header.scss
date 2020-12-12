@@ -1,8 +1,11 @@
+@import '../variables.scss';
+
 header {
-    background: royalblue;
+    background: $secondary-background;
     display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 30px;
+    color: $highlight;
 }

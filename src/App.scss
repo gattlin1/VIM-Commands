@@ -1,6 +1,18 @@
-.container {
+@import './variables.scss';
+
+.content {
+    background-color: $background;
     display: grid;
+    grid-template-rows: 40px auto;
+    gap: 15px;
     justify-items: center;
     padding: 10px;
     padding-top: 20px;
+    height: 100vh;
+    color: $highlight;
+
+    .commands {
+        width: 100%;
+        gap: 10px;
+    }
 }
